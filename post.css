@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* box-sizing: border-box; */
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1rem;
+}
+/* Navigation bar */
+header{
+    font-size: .825rem;
+    width: 100%;
+    padding: 0.2em .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.chat-logo{
+    width: 20px;
+    object-fit: cover;
+}
+
+.logo a{
+    font-size: .925rem;
+    text-decoration: none;
+    color: #202020;
+    font-weight: bold;
+    margin-left: .2em;
+}
+
+.article-main span{
+    display: block;
+    margin: 1.5em 0;
+}
+
+.sub-title{
+    font-weight: bold;
+}
+
+.nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0;
+    list-style: none;
+}
+
+.nav li{
+    padding: 0;
+}
+
+.nav a{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-left: .5em;
+}
+
+h1{
+    margin: .5em 0; 
+}
+
+.sub-section{
+    font-weight: bold;
+    text-align: center;
+    color: #202020;
+}
+
+p{
+    color:#505050;
+}
+
+.article-date{
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+main{
+    /* width: 100%; */
+    padding: 1.5em;
+    display: grid;
+    gap: 2.5em 0;
+    grid-template-columns: 1fr;
+    
+}
+
+.article-main{
+    /* padding: 1em; */
+    /* box-sizing: border-box; */
+}
+
+.article-main p{
+    line-height: 1.5;
+}
+
+
+.article-main img{
+    width: 100%;
+    margin: 1.5em 0;
+    object-fit: cover;
+}
+
+.blog-list{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.blog-list article{
+    margin-top: 2em;
+    line-height: 1.5;
+}
+
+
+footer{
+    margin-top: 2em;
+    background-color: #202020;
+    color: #D7D7D7;
+    padding: 1em;
+    text-align: center;
+}
+
+footer .title{
+    color: #ECECEC;
+    margin-bottom: .5em;
+}
