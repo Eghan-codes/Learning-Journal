@@ -87,7 +87,7 @@ main{
 
 .intro{
     color: #FFFFFF;
-    background-image:url(/images/article-image-hero.jpg);
+    background-image:url(images/article-image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
